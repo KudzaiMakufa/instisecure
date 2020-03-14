@@ -1,0 +1,19 @@
+/* styling for the product widget */
+div.thumbnail {
+	height: 330px;
+}
+div.caption {
+	margin-bottom: 10px;
+	height: 80px;
+}
+div.cart-actions {
+	text-align: center;
+}
+.btn-cart{
+	min-width: 80px;
+}
+
+/* lets hide the title bar */
+.page-title {
+	display: none;
+}

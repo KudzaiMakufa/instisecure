@@ -1,0 +1,102 @@
+/*-- custom page hacks --*/
+*{
+	padding: 0; 
+	margin: 0;
+}
+html{
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	margin-bottom: 54px;
+	overflow-x: hidden;
+}
+
+#footer-inner{
+	position: relative;
+	margin: 0 auto;
+	border: px solid red;	
+}
+footer{
+	background: #badaa5 url("../img/footer-bg.jpg") repeat-x;
+	position: absolute;
+	bottom: 0;
+	height: 54px;
+	text-align: center;
+	width:100%;
+}
+
+footer p{
+	margin: 0;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+/* main document wrappper */
+.container {
+	margin-bottom: 30px;
+	background: #fff;
+	box-shadow: 5px gray;
+}
+
+/* nav bar */
+#bs-example-navbar-collapse-1{
+	background: orange;
+}
+
+/* menu a tags */
+#bs-example-navbar-collapse-1 ul li a{
+	color: #000;
+}
+
+/* on highlight a menu with drop downs */
+#bs-example-navbar-collapse-1  ul li.dropdown.open  a {
+	background: #c98509;
+	margin-top: 0;
+}
+
+/* kanhu: dropdown arrow */
+#bs-example-navbar-collapse-1 ul li a span {
+	margin-left: 5px;
+}
+
+/* drop down menu */
+#bs-example-navbar-collapse-1 ul li ul {
+	padding: 0 1px 1px 1px;
+}
+
+#bs-example-navbar-collapse-1 ul li ul li:hover {
+	background: #000; color: #fff;	
+}
+#content_only-deprecated
+{
+	overflow-y: auto;
+	height:70%;
+	padding-bottom: 15%;
+	padding-left: 10px;
+}
+#content_onlyxxx {
+	padding-bottom: 0px;
+}
+.modal-header {
+	background-color: orange;
+}
+
+/* fix for vertical space on product offer page view */
+.row-my{
+	margin-bottom: 10px;
+}
+.libs-btn-link{
+	text-decoration: none;
+}
+
+/* use entire viewport width on small device */
+div.container{
+	width: 100%;
+}
+
+#content_only > div > form > fieldset > div.row{
+	margin-bottom: 15px;
+}
+	

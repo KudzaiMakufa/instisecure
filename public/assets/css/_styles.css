@@ -1,0 +1,28 @@
+.collapsibleList ul {
+ list-style: none;
+ margin-left: 0;
+
+ }
+	.collapsibleList li{
+  list-style-image:url('../img/buttons/document.png');
+  cursor:auto;
+}
+.collapsibleList ul{
+overflow: hidden; 
+}
+
+li.collapsibleListOpen{
+	
+  list-style-image:url('../img/buttons/toggle-small.png');
+  cursor:pointer;
+}
+
+li.collapsibleListClosed{
+	
+  list-style-image:url('../img/buttons/toggle-small-expand.png');
+  cursor:pointer;
+}
+
+#datatable .form-control{
+	width:100% !important;
+}
