@@ -1,4 +1,4 @@
-Institutional Asset Mannagement 
+Institutional Asset Management 
 
 Goal is to reduce Asset theft in institutes 
 QR Code scanner on assets and fingerprint based authentication for verifiction purposes
